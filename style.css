@@ -1,0 +1,21 @@
+#about {
+    color: red;
+}
+#skills {
+    color: green;
+}
+#portfolio {
+    color: blue;
+}
+#contact {
+    color: yellow;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
