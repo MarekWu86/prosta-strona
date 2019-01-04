@@ -7,35 +7,68 @@
     <title>Prosta strona</title>
 </head>
 <body>
+    
     <!-- navbar menu -->
     <nav>
         <ul>
-            <li><a id="about" href="">About us</a></li>
-            <li><a id="skills" href="">Skills</a></li>
-            <li><a id="portfolio" href="">Portfolio</a></li>
-            <li><a id="contact" href="">Contact</a></li>
+            <li><a id="about" href="#section-1">About us</a></li>
+            <li><a id="skills" href="#section-2">Skills</a></li>
+            <li><a id="portfolio" href="#section-3">Portfolio</a></li>
+            <li><a id="contact" href="#section-4">Contact</a></li>
         </ul>
     </nav>
+
     <!-- sekcja 1 -->
     <section id="section-1">
         <h1>About us</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta reprehenderit officia dignissimos ab totam voluptate dolorum aperiam distinctio quam incidunt repudiandae, deleniti saepe temporibus sit error. Rem, impedit a?</p>
     </section>
+
     <!-- sekcja 2 -->
-    <section>
+    <section id="section-2">
         <h1>Skills</h1>
         <div id="div1"></div>
         <div id="div2"></div>
         <div id="div3"></div>
         <div id="div4"></div>
     </section>
+
     <!-- sekcja 3 -->
-    <section>
+    <section id="section-3">
         <h1>Portfolio</h1>
         <div id="div-1"></div>
         <div id="div-2"></div>
         <div id="div-3"></div>
     </section>
-    
+
+    <!-- sekcja 4 -->
+    <section id="section-4">
+        <h1>Contact</h1>
+        <h3>Marek Wojdyło</h3>
+        <table>
+            <tr>
+                <th>Address:</th>
+                <td>ul. Bonifacego 44</td>
+            </tr>
+            <tr>
+                <th>Telephone:</th>
+                <td>12 345 67 89</td>
+            </tr>
+            <tr>
+                <th>E-mail:</th>
+                <td>marek.wojdylo@m3group.pl</td>
+            </tr>
+        </table>
+        
+        <form>
+                Imię:<br>
+                <input type="text" name="Imię"><br>
+                Temat:<br>
+                <input type="text" name="Temat"><br>
+                Wiadomość:<br>
+                <input id="wiadomość" type="text" name="Wiadomość"><br><br>
+                <input id="button" type="submit" value="Wyślij">
+              </form>
+    </section>
 </body>
 </html>

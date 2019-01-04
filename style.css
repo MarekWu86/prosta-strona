@@ -35,17 +35,26 @@
 }
 #div-1, #div-2, #div-3 {
     display: inline-block;
-    height: 133px;
-    width: 133px;
+    height: 130px;
+    width: 130px;
 }
 #div-1 {
-    background-color: blue;
+    border: 3px solid blue;
 }
 #div-2 {
-    background-color: lightskyblue;
+    border: 3px solid lightskyblue;
 }
 #div-3 {
-    background-color: skyblue;
+    border: 3px solid skyblue;
+}
+#wiadomość {
+    height: 100px;
+}
+#button {
+    color: #fff;
+    background-color: brown;
+    height: 30px;
+    width: 150px;
 }
 a {
     text-decoration: none;
@@ -55,3 +64,12 @@ a {
 li {
     list-style-type: none;
 }
+
+table {
+    padding-bottom: 10px;
+}
+
+th {
+    float: right;
+}
+
